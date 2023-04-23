@@ -1,0 +1,101 @@
+body {
+  padding: 0;
+  margin: 0;
+  
+  
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  font-family:'Courier New', Courier, monospace;
+   background-color:rgb(248, 247, 248);
+  background-image: 
+  url(./styles/pngtree-seamless-pattern-with-cute-cat-and-dog-animal-pastel-colors-blue-picture-image_1166112.jpg);  
+  
+} 
+  
+  
+  
+
+
+.app-header {
+  text-align: center;
+  background-color:rgba(228, 212, 212, 0.671);
+  color: purple ;
+  width: 100%;
+  border-radius: 55px;
+  box-shadow:  0 0 10px rgb(146, 50, 50);
+  font-weight: 600;
+  
+}
+
+.app-container {
+  margin-top: 50px;
+  
+}
+
+.room {
+  display: flex;
+  flex-direction: column;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  width:90%;
+   color:purple;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgb(164, 164, 164);
+    background-color: rgb(238, 222, 234);
+    padding: 15px;
+    
+
+
+}
+
+.room label {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.room input {
+  width: 200px;
+  height: 30px;
+  border: 2px solid #2fadb6;
+  border-radius: 6px;
+  padding-left: 5px;
+  font-size: 20px;
+  text-align: center;
+  margin: 5px;
+}
+.room button {
+  width: 210px;
+  height: 40px;
+  border: none;
+  border-radius: 6px;
+  padding-left: 5px;
+  font-size: 20px;
+  text-align: center;
+  margin: 5px;
+  background-color: #2fadb6;
+  color: white;
+  cursor: pointer;
+}
+
+.sign-out {
+  margin-top: 50px;
+  background-color: purple;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 25px;
+  
+}

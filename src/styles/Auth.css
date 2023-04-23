@@ -1,0 +1,24 @@
+.auth {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size:xx-large;
+    text-align: center;
+  background-color:rgba(247, 245, 245, 0.473);
+  width: 115%;
+  height: 50px;
+  border-radius: 10px;
+  box-shadow:  0 0 10px rgb(34, 24, 24);
+
+}
+
+.auth button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #2285d6;
+    color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+}
